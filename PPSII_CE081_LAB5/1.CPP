@@ -21,18 +21,18 @@ class MovingPoint
     {
         this->x += units;
     }
-    void move_up(int units)
-    {
-        this->y += units;
-    }
-    void move_down(int units)
-    {
-        this->y -= units;
-    }
-    void print_current_position()
-    {
-        std::cout << this->x << " " << this->y << std::endl;
-    }
+//     void move_up(int units)
+//     {
+//         this->y += units;
+//     }
+//     void move_down(int units)
+//     {
+//         this->y -= units;
+//     }
+//     void print_current_position()
+//     {
+//         std::cout << this->x << " " << this->y << std::endl;
+//     }
 };
 
 int main() 
